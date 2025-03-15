@@ -39,3 +39,36 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Stil pentru meniu */
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produs {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+}
+
+.produs img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.produs:hover {
+    transform: scale(1.05);
+}
+
+.pret {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+}
