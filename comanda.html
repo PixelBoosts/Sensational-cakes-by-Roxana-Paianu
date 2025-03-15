@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular de Comandă</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Plasează Comanda</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="meniu.html">Meniu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="comanda">
+        <h2>Completează formularul</h2>
+        <form>
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume" required>
+
+            <label for="telefon">Telefon:</label>
+            <input type="tel" id="telefon" name="telefon" required>
+
+            <label for="produs">Alege produsul:</label>
+            <select id="produs" name="produs">
+                <option value="tort">Tort de ciocolată</option>
+                <option value="ecler">Ecler cu vanilie</option>
+                <option value="cheesecake">Cheesecake</option>
+            </select>
+
+            <label for="cantitate">Cantitate:</label>
+            <input type="number" id="cantitate" name="cantitate" min="1" required>
+
+            <label for="adresa">Adresă de livrare:</label>
+            <textarea id="adresa" name="adresa" required></textarea>
+
+            <button type="submit">Trimite comanda</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Prăjituri Delicioase</p>
+    </footer>
+</body>
+</html>
