@@ -221,3 +221,18 @@ footer a:hover {
 #search-button:hover {
     background-color: #e68900;
 }
+
+.rating {
+    display: flex;
+    gap: 5px;
+}
+
+.star {
+    font-size: 20px;
+    color: #ff9800;
+    cursor: pointer;
+}
+
+.star:hover {
+    color: #e68900;
+}
