@@ -184,3 +184,13 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    .grid-produse {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .produs {
+        width: 100%;
+    }
+}
