@@ -10,3 +10,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    let formular = document.querySelector("form");
+    
+    formular.addEventListener("submit", function (e) {
+        let nume = document.getElementById("nume").value;
+        let email = document.getElementById("email").value;
+        
+        if (nume.trim() === "" || email.trim() === "") {
+            e.preventDefault();  // Previi trimiterea formularului
+            alert("Te rugăm să completezi toate câmpurile!");
+        } else {
+            alert("Comanda ta a fost trimisă cu succes!");
+        }
+    });
+});
