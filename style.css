@@ -236,3 +236,20 @@ footer a:hover {
 .star:hover {
     color: #e68900;
 }
+
+.despre-noi {
+    padding: 30px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.despre-noi h2 {
+    font-size: 2rem;
+    color: #ff9800;
+}
+
+.despre-noi p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
