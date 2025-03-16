@@ -26,3 +26,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.getElementById("search-button").addEventListener("click", function () {
+    let searchQuery = document.getElementById("search").value.toLowerCase();
+    let produse = document.querySelectorAll(".produs");
+    
+    produse.forEach(function (produs) {
+        let numeProdus = produs.querySelector(".produs-nume").textContent.toLowerCase();
+        if (numeProdus.includes(searchQuery)) {
+            produs.style.display = "block";
+        } else {
+            produs.style.display = "none";
+        }
+    });
+});
