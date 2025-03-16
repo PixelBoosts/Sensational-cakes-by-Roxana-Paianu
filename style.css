@@ -253,3 +253,33 @@ footer a:hover {
     color: #333;
     line-height: 1.5;
 }
+
+.contact {
+    padding: 40px;
+    background-color: #fff3e0;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #ff9800;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #e68900;
+}
