@@ -40,3 +40,16 @@ document.getElementById("search-button").addEventListener("click", function () {
         }
     });
 });
+
+let stele = document.querySelectorAll(".star");
+stele.forEach(function(steara, index) {
+    steara.addEventListener("click", function() {
+        stele.forEach(function(star, i) {
+            if(i <= index) {
+                star.style.color = "#e68900"; // Marcare stele selectate
+            } else {
+                star.style.color = "#ff9800"; // Restaurează stelele neselctate
+            }
+        });
+    });
+});
