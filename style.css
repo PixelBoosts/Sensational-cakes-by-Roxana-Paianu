@@ -164,3 +164,23 @@ button:hover {
 .produs:hover {
     transform: scale(1.05);
 }
+footer {
+    background-color: #ff9800;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
